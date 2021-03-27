@@ -16,15 +16,48 @@ header {
 main {
     margin          : 20px;
     padding         : 40px;
-    border          : 1px dashed black;
+    border          : .5px dashed black;
     background-color: rgb(212, 208, 195);
 
     display        : flex;
     flex-wrap      : wrap;
     justify-content: space-evenly;
-    gap            : 10px;
-
 }
+
+/* 
+#################################################
+     User Input Section ###>>> Start 
+#################################################
+*/
+.user_Input_Area {
+    /* align-self      : center;
+    width           : 300px;
+    height          : 150px;
+    border          : 1px dashed black;
+    background-color: whitesmoke; */
+
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+#main_button {
+    width        : 250px;
+    height       : 80px;
+    font-size    : 25px;
+    font-weight  : bold;
+    padding      : 10px;
+    outline      : none;
+    border-radius: 2px;
+    border       : 1px dotted black;
+    cursor       : pointer;
+}
+
+/* 
+#################################################
+     User Input Section ###>>> End 
+#################################################
+*/
 
 .user_Output_Area {
 
@@ -74,36 +107,6 @@ main {
 
 audio {
     outline: none;
-}
-
-.user_Input_Area {
-
-    /* align-self      : center;
-    width           : 300px;
-    height          : 150px;
-    border          : 1px dashed black;
-    background-color: whitesmoke; */
-
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
-
-}
-
-#main_button {
-    width        : 250px;
-    height       : 80px;
-    font-size    : 25px;
-    font-weight  : bold;
-    padding      : 10px;
-    outline      : none;
-    border-radius: 2px;
-    border       : 1px dotted black;
-}
-
-#main_button:hover {
-    cursor: pointer;
-
 }
 
 /* 
@@ -167,3 +170,4 @@ audio {
      Battery Total Animation ###>>> END 
 #################################################
 */
+
