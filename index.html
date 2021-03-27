@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1f45fef13f.js" crossorigin="anonymous"></script>
     <title>UPS Project</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -26,15 +27,19 @@
 
             <div class="display_container">
 
-                <!-- Display Battery -->
+                <!-- Battery Container -->
                 <div id="charge" class="battery_container">
-
+                    <!-- Battery -->
+                    <div id="charge" class="battery_outer">
+                        <div class="battery_level">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="sound_container">
-
                     <!-- Audion Sound File -->
                     <audio id="audio" controls>
+
                         <source src="audio/double-beep-beep.mp3" type="audio/mpeg">
                     </audio>
 
@@ -48,8 +53,9 @@
             <button id="main_button">Current</button>
         </section>
 
-
     </main>
+
+
 
     <script src="js/script.js"></script>
 </body>

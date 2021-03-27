@@ -56,7 +56,7 @@ main_button.addEventListener('click', () => {
 
         // audio Object
         audioJs.play();
-        audioJs.loop = true;
+        //audioJs.loop = true;
     }
 
 })
