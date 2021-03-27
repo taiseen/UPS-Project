@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPS Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>UPS Project</h1>
+        <h2>Current ON/OFF detection with condition</h2>
+    </header>
+    <main>
+
+        <section id="display_output" class="user_Output_Area">
+
+            <h1 id="welcome">Default State...</h1>
+            <h1 id="currentCome">Current Come...</h1>
+            <h1 id="currentGone">Current Gone...</h1>
+
+
+            <div class="display_container">
+
+                <!-- Display Battery -->
+                <div id="charge" class="battery_container">
+
+                </div>
+
+                <div class="sound_container">
+
+                    <!-- Audion Sound File -->
+                    <audio id="audio" controls>
+                        <source src="audio/double-beep-beep.mp3" type="audio/mpeg">
+                    </audio>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="user_Input_Area">
+            <button id="main_button">Current</button>
+        </section>
+
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
