@@ -131,8 +131,8 @@ audio {
     position                  : absolute;
     left                      : 50%;
     transform                 : translate(-50%);
-    bottom                    : -20px;
-    width                     : 40px;
+    bottom                    : -22px;
+    width                     : 45px;
     height                    : 20px;
     background-color          : black;
     border-bottom-right-radius: 5px;
