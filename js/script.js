@@ -29,6 +29,9 @@ main_button.addEventListener('click', () => {
         main_button.style.color = "white";
         main_button.style.backgroundColor = "red";
         display_output.style.backgroundColor = 'white';
+        display_output.style.boxShadow = 'inset 0 0 100px 10px rgba(110, 213, 208, 0.5)'
+        
+
 
         // Component Visibility |>>> >>> >>> >>> Hide
         welcome.style.display = 'none';
@@ -52,6 +55,8 @@ main_button.addEventListener('click', () => {
         main_button.innerText = 'ON';
         main_button.style.backgroundColor = "green";
         display_output.style.backgroundColor = 'gray';
+        display_output.style.boxShadow = 'none'
+       
 
         // Component Visibility |>>> >>> >>> >>> Show
         currentCome.style.display = 'none';

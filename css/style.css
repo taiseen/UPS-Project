@@ -146,6 +146,7 @@ audio {
     background-color: lightgray;
     border-radius   : 2px;
     animation       : batteryLevel 20s linear infinite;
+
 }
 
 @keyframes batteryLevel {
@@ -180,5 +181,11 @@ audio {
 }
 
 img {
-    width: 70px;
+    width        : 70px;
+    height       : 70px;
+    border-radius: 50%;
+}
+
+img:hover {
+    box-shadow: 0 0 60px 0 rgb(220, 188, 29);
 }
