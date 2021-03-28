@@ -102,7 +102,7 @@ main {
 
 .sound_container {
     display: none;
-    margin : 20px 10px;
+    margin : 20px 60px;
 }
 
 audio {
@@ -171,3 +171,14 @@ audio {
 #################################################
 */
 
+#play,
+#pause {
+    background-color: transparent;
+    border          : none;
+    outline         : none;
+    cursor          : pointer;
+}
+
+img {
+    width: 70px;
+}
